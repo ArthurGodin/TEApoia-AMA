@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.saibaMais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: clamp(10rem, 10vw, 12rem); 
+    height: clamp(2rem, 2vw, 2.5rem); 
+    background: #D8BFD8;
+    border-radius: 10px;
+    border: none;
+    padding: 1rem 2.5rem;
+    white-space: nowrap;
+    font-family: 'Nunito';
+    font-size: clamp(1rem, 1.2vw, 1.5rem); 
+    font-weight: 700;
+}
+
+.saibaMais:hover {
+    box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.5); 
+    cursor: pointer;
+}
+
+.saibaMais p,
+.saibaMais i {
+    color: #000000;
+    font-weight: 700;
+}
+
+
+
+/* Estilização para a seção de Instituições */
+.instituições {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.instituições #texto {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.instituições #texto h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #004085;
+    margin-bottom: 10px;
+}
+
+.instituições #texto p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.instituições #texto b {
+    color: #0056b3;
+    font-weight: 600;
+}
+
+
